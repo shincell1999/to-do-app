@@ -1,0 +1,73 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="Cr6bNr24LyjKBJdxBMpa">
+    <mxGraphModel dx="1339" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aOYm_751yS2dm2QyhZQW-1" value="User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="238" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aOYm_751yS2dm2QyhZQW-2" value="&lt;p class=&quot;p1&quot;&gt;email / password&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOYm_751yS2dm2QyhZQW-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startSize=4;jumpSize=6;spacing=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="341" y="240" as="sourcePoint" />
+            <mxPoint x="341.5" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOYm_751yS2dm2QyhZQW-6" value="Frontend" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="238" y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aOYm_751yS2dm2QyhZQW-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="341" y="400" as="sourcePoint" />
+            <mxPoint x="341.5" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOYm_751yS2dm2QyhZQW-10" value="&amp;nbsp;Backend" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="238" y="480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aOYm_751yS2dm2QyhZQW-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="338" y="560" as="sourcePoint" />
+            <mxPoint x="338" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOYm_751yS2dm2QyhZQW-14" value="Database" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="238" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aOYm_751yS2dm2QyhZQW-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.4;entryY=1.031;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.4;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aOYm_751yS2dm2QyhZQW-14" target="aOYm_751yS2dm2QyhZQW-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="640" as="sourcePoint" />
+            <mxPoint x="330" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOYm_751yS2dm2QyhZQW-18" value="&lt;p class=&quot;p1&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;POST /auth/login&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="420" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOYm_751yS2dm2QyhZQW-19" value="&lt;p class=&quot;p1&quot;&gt;users テーブルから email で検索&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="590" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOYm_751yS2dm2QyhZQW-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.4;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.388;exitY=-0.044;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aOYm_751yS2dm2QyhZQW-10" target="aOYm_751yS2dm2QyhZQW-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="470" as="sourcePoint" />
+            <mxPoint x="330" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aOYm_751yS2dm2QyhZQW-21" value="&lt;p class=&quot;p1&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;- password と password_hash を bcrypt で比較&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;- OKなら JWT を生成&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="505" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOYm_751yS2dm2QyhZQW-22" value="&lt;p class=&quot;p1&quot;&gt;JWT をレスポンスとして返す&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="420" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOYm_751yS2dm2QyhZQW-23" value="&lt;p class=&quot;p1&quot;&gt;user レコード&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="590" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aOYm_751yS2dm2QyhZQW-24" value="&lt;h2&gt;&lt;b&gt;ログイン時の流れ&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="90" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
